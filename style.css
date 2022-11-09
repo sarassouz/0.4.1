@@ -35,8 +35,8 @@ button {
   padding-bottom: 4px;
 }
 
-tr:hover {
-  background-color: #b6b8b8;
+tr:hover:not(:first-child) {
+  background-color: #7a7a7a;
 }
 
 .Twitter {
