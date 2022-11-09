@@ -1,0 +1,47 @@
+tr {
+  font-size: 14px;
+}
+
+tr:first-child {
+  background-color: black;
+  color: white;
+  border: none;
+}
+
+tr:nth-child(odd):not(:first-child) {
+  background-color: #cccfcd;
+}
+
+td, th {
+  padding: 6px;
+  text-align: start;
+}
+
+table {
+  border-collapse: collapse;
+}
+
+.Influenciador {
+  text-align: left;
+}
+
+button {
+  border: 0;
+  border-radius: 4px;
+  padding-left: 8px;
+  padding-right: 8px;
+  padding-top: 4px;
+  padding-bottom: 4px;
+}
+
+.Twitter {
+  background-color: #1a8cd8;
+}
+
+.Instagram {
+  background-color: #fa66c9;
+}
+
+.Youtube {
+  background-color: #ee0c0c;
+}
