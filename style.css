@@ -12,7 +12,8 @@ tr:nth-child(odd):not(:first-child) {
   background-color: #cccfcd;
 }
 
-td, th {
+td,
+th {
   padding: 6px;
   text-align: start;
 }
@@ -32,6 +33,10 @@ button {
   padding-right: 8px;
   padding-top: 4px;
   padding-bottom: 4px;
+}
+
+tr:hover {
+  background-color: #b6b8b8;
 }
 
 .Twitter {
